@@ -2,9 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-$END$
+<div class="slider">
+    <div class="item">
+        <img src="image/slide1.jpg" alt="Первый слайд">
+    </div>
+
+    <div class="item">
+        <img src="image/slide2.jpg" alt="Второй слайд">
+    </div>
+
+    <div class="item">
+        <img src="image/slide3.jpg" alt="Третий слайд">>
+    </div>
+    <div class="item">
+        <img src="image/slide4.jpg" alt="Четвертый слайд">
+    </div>
+    <div class="item">
+        <img src="image/slide5.jpg" alt="Пятый слайд">
+    </div>
+    <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+<div class="slider-dots">
+    <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+    <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+    <span class="slider-dots_item" onclick="currentSlide(5)"></span>
+</div>
+<script src="js/js.js"></script>
 </body>
 </html>
